@@ -10,6 +10,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4.2.1
         with:
+          distribution: 'temurin'
           java-version: 11
 
       - name: Run tests
